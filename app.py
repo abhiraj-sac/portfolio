@@ -51,22 +51,22 @@ if selected == 'About':
             st.subheader("I am ABhiraj sachan")
             st.title("Machine learning")
         with col2:
-            html_code="""
-            <img src="https://cdn.dribbble.com/users/2401141/screenshots/5487982/media/9a946a4bf36643b0b9c7ece0eb478f83.gif" width="250" height="250"/>
-            """ 
-            st.markdown(html_code, unsafe_allow_html=True)
+            # html_code="""
+            # <img src="https://cdn.dribbble.com/users/2401141/screenshots/5487982/media/9a946a4bf36643b0b9c7ece0eb478f83.gif" width="250" height="250"/>
+            # """ 
+            # st.markdown(html_code, unsafe_allow_html=True)
             #  st.image(, width =100)
     st.write('-----')
     with st.container():
         col3,col4 =st.columns(2)
         with col3:
-         html_code="""
-         <img src="https://cdn.rentechdigital.com/common_files/blogs/machine-learning-swipecart-blog-img-01-31-08-2022.gif" width="250" height="250"/>
-         """ 
-         st.markdown(html_code, unsafe_allow_html=True)        
+        #  html_code="""
+        #  <img src="https://cdn.rentechdigital.com/common_files/blogs/machine-learning-swipecart-blog-img-01-31-08-2022.gif" width="250" height="250"/>
+        #  """ 
+        #  st.markdown(html_code, unsafe_allow_html=True)        
         with col4:
          st.write("""Meet Abhiraj, an enthusiastic and dedicated machine learning student with a fervent passion for the ever-evolving field of artificial intelligence. Currently immersed in the journey of mastering machine learning, [Your Name] exhibits a profound curiosity and determination to explore the depths of this transformative technology.
-        Armed with a strong foundation in Data Structures and Algorithms,The marriage of SQL expertise with his proficiency in Python, including object-oriented programming (OOP) principles, showcases  holistic approach to data science and machine learning projects. """)
+         Armed with a strong foundation in Data Structures and Algorithms,The marriage of SQL expertise with his proficiency in Python, including object-oriented programming (OOP) principles, showcases  holistic approach to data science and machine learning projects. """)
          
          
 if selected =="Projects":
@@ -127,10 +127,10 @@ if selected =="blogs":
         cols5,cols6,cols7 =st.columns((1,1,1))
         # cols5, cols6, cols7 = st.beta_columns(3)
         with cols5:
-            html_code="""
-            <img src="https://media.tenor.com/iRB7vrvhPR4AAAAi/data-code.gif" width="200" height="200"/>
-            """ 
-            st.markdown(html_code, unsafe_allow_html=True)
+        #     html_code="""
+        #     <img src="https://media.tenor.com/iRB7vrvhPR4AAAAi/data-code.gif" width="200" height="200"/>
+        #     """ 
+        #     st.markdown(html_code, unsafe_allow_html=True)
             st.markdown("[check my all blogs.][https://medium.com/@abhirajj701]")
             st.text('')
         
